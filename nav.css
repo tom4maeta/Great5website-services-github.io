@@ -1,0 +1,385 @@
+body {
+  background-color:#d7e4d0;
+    margin: 0;
+    padding: 0;
+    background-image: url('');
+    font-family: Arial, sans-serif;
+  }
+  
+  .horizontal-nav {
+    background-color: #dfece1;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 1000;
+    margin-right: 20px;
+    color: hsla(239, 88%, 16%, 0.911);
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  .nav-links li a:hover{
+color: #ff0000;
+  }
+  .nav-links li a {
+    text-decoration: none;
+    color: rgba(18, 15, 15, 0.849);
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  .burger div:hover{
+    color: #da2109;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #0044ff;
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #df9494;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .burger {
+      display: block;
+    }
+  }
+
+  .Signup-container {
+    
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7b3b3;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img{
+  align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    width: 200px;
+    height: 150px;
+}
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, button {
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+button:hover{
+  background-color: rgb(179, 228, 179);
+}
+  
+
+
+#message {
+    text-align: center;
+    color: red;
+}
+  .loginn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(133, 65%, 85%);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, button {
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: hotpink;
+    color: crimson;
+}
+
+#message {
+    text-align: center;
+    color: red;
+}
+img{
+    border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(241, 233, 233, 0.1);
+  opacity: 0.8;
+  width: 200px;
+  height: 150px;
+  }
+  .logins{
+    margin-top:0px ;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .intro-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .btn-cta {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(33, 176, 212);
+    color: #1b05e2;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-cta:hover {
+    background-color: #dbc9ca;
+  }
+  span{
+    
+        font-weight: bold;
+        color: #da2109;      
+  }
+
+  .site-footer {
+    background-color: #e46561;
+    color: #fff;
+    padding: 30px 0;
+    cursor: pointer;
+  }
+  .site-footer :hover{
+    color: black;
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p, .footer-section li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .font-awesome li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .font-awesome a {
+    color: #ffffff;
+    font-size: 30px;
+    }
+  
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;}
+    .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  .container3  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .column {
+    flex: 1;
+    min-width: 200px; 
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media screen and (max-width: 768px) {
+    .column {
+      flex-basis: 50%;
+    }
+  }
+  .webdev img{
+    height: 200px;
+    width: 300px;
+    content-visibility: auto;
+  }
+  .wellhome{
+    position: relative;
+  }
+  .wellhome img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:darkgrey;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+.gg{
+  color: #ff9100;
+}
+.myone{
+  color:#2bff00;
+  font-weight: bolder;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+.overlay-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: black;
+}
+.overlay-text p {
+  color: bisque;
+  font-size: 18px;
+}
+  
+   
+  
+  
+  
+  
+  
+  
+  
